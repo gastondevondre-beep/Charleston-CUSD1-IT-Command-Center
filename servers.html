@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Servers - Charleston CUSD 1 IT Command Center</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="sidebar">
+
+    <div class="brand">
+
+        <h2>Charleston CUSD 1</h2>
+
+        <p>IT Command Center</p>
+
+    </div>
+<div class="user-profile">
+
+    <div class="user-icon">
+        👤
+    </div>
+
+    <div>
+        <h3>Dre Gaston</h3>
+        <p>Information Tech Support</p>
+    </div>
+
+</div>
+
+    <nav>
+
+    <a href="dashboard.html">
+        🏠 Dashboard
+    </a>
+
+    <a href="tickets.html">
+        🎫 Tickets
+    </a>
+
+    <a href="devices.html">
+        💻 Devices
+    </a>
+
+    <a class="active" href="servers.html">
+        🖥 Servers
+    </a>
+
+    <a href="reports.html">
+        📊 Reports
+    </a>
+
+    <a href="it-tools.html">
+    🛠️ IT Tools
+</a>
+
+</nav>
+
+
+</div>
+
+<div class="sidebar-footer">
+
+    <button class="logout-btn" onclick="logout()">
+
+        🚪 Logout
+
+    </button>
+
+
+    <br><br>
+
+    Infrastructure Team
+
+    <br>
+
+    Version 1.0
+
+</div>
+
+
+<div class="main">
+
+
+<header class="top-header">
+
+<div>
+
+<h1>Server Management</h1>
+
+<p>Infrastructure Monitoring</p>
+
+</div>
+
+
+<div class="header-status">
+
+<span class="status-dot"></span>
+
+Servers Online
+
+</div>
+
+
+</header>
+
+
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Total Servers</h3>
+
+<h1>12</h1>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Online</h3>
+
+<h1>11</h1>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Warnings</h3>
+
+<h1>1</h1>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Critical</h3>
+
+<h1>0</h1>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<section class="server-table">
+
+
+<h2>Server Status</h2>
+
+
+<table>
+
+
+<tr>
+
+<th>Name</th>
+
+<th>Role</th>
+
+<th>Status</th>
+
+</tr>
+
+
+
+<tr>
+
+<td>DC01</td>
+
+<td>Domain Controller</td>
+
+<td class="online">● Online</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>FILE01</td>
+
+<td>File Server</td>
+
+<td class="online">● Online</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>APP01</td>
+
+<td>Application Server</td>
+
+<td class="warning">● Warning</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>PRINT01</td>
+
+<td>Print Server</td>
+
+<td class="online">● Online</td>
+
+</tr>
+
+
+
+</table>
+
+
+</section>
+
+
+
+
+
+<section class="server-health">
+
+
+<h2>Infrastructure Health</h2>
+
+
+<div class="health-item">
+
+<span>CPU Usage</span>
+
+<strong>42%</strong>
+
+</div>
+
+
+
+<div class="health-item">
+
+<span>Memory Usage</span>
+
+<strong>58%</strong>
+
+</div>
+
+
+
+<div class="health-item">
+
+<span>Storage</span>
+
+<strong>71%</strong>
+
+</div>
+
+
+</section>
+
+
+
+</div>
+
+<script>
+
+function logout(){
+
+    window.location.href="index.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
